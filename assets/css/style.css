@@ -16,7 +16,17 @@ a{
 }
 
 /* utility */
-
+.curve{
+    display: block;
+    display: flex;
+    flex-direction:column;
+}
+.curve-rotate{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    transform: rotate(180deg);
+}
 .text-p{
     padding: 10px 0;
     font-size: 12px;
@@ -187,7 +197,7 @@ a{
 
 /* contact__container */
 .contact{
-    padding: 20px 0;
+    /* padding: 20px 0; */
     background-color: #f6f6f6;
 }
 
